@@ -1,0 +1,1 @@
+{"virtualbox":{"/app":{"guestpath":"/app","hostpath":"/Users/tech-a29-clean/Documents/engineering-29/DevOps/Dev-Environments/app","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/tech-a29-clean/Documents/engineering-29/DevOps/Dev-Environments","disabled":false,"__vagrantfile":true}}}
