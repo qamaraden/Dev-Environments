@@ -7,4 +7,17 @@ To use this development environment, you need to have Vagrant vagrant-install an
 
 #### Starting Vagrant
 First, clone the repo,
-```git clone 
+```$ git clone git@github.com:qamaraden/Dev-Environments.git```
+```$ cd Dev-Environments```
+
+#### Testing
+You can make sure that everyhthing is installed properly by doing a spec test. The spect test can be found in the following folder:
+```$ cd environment/spec-tests```
+
+Bundle to make sure all the gems are installed 
+```$ bundle```
+Make sure there's a spec folder in there. Now 'rake spec
+```$ rake spec```
+
+
+
