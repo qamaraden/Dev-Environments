@@ -13,7 +13,7 @@ First, clone the repo,
 ```$ cd Dev-Environments```
 
 #### Testing
-Step 1: You can make sure that everyhthing is installed properly by doing a spec test. The spect test can be found in the following folder:
+Step 1: You can make sure that everyhthing is installed properly by doing a spec test. The spec test can be found in the following folder:
 
 ```$ cd environment/spec-tests```
 
