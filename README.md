@@ -54,7 +54,7 @@ Step 5: Now you can build the VM:
 
 ```$ vagrant ssh```
 
-Step 6: The url below should now be able to run on your web browser:
+Step 6: The url below should now be able to run your app.js on your web browser:
 
 http://development.local:3000/
 
