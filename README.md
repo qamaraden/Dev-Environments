@@ -28,14 +28,23 @@ Step 3: Make sure there's a spec folder in there. Now 'rake spec
 Step 4: If the test runs and there are 0 failures then you can skip this step. if the test comes back with any failures, go into the provision.sh file in environment folder and make sure that this is in it:
 
 ```sudo apt-get update -y```
+
 ```sudo apt-get upgrade -y```
+
 ```sudo apt-get install nginx -y```
+
 ```sudo apt-get install nodejs npm -y```
+
 ```curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -```
+
 ```sudo apt-get install -y nodejs```
+
 ```npm install pm2 -g```
+
 ```cd /app```
+
 ```pm2 start app.js ```
+
 
 Step 5: Now you can build the VM:
 
