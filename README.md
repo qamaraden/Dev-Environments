@@ -58,3 +58,5 @@ Step 6: The url below should now be able to run your app.js on your web browser:
 
 http://development.local:3000/
 
+and it should say that the app is running correctly.
+
