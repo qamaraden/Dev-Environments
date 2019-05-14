@@ -57,9 +57,6 @@ then
 
 ```$ vagrant up```
 
-  And SSH into it:
-
-```$ vagrant ssh```
 
 Step 6: The url below should now be able to run your app.js on your web browser:
 
