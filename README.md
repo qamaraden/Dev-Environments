@@ -43,6 +43,8 @@ Step 4: If the test runs and there are 0 failures then you can skip this step. i
 
 ```cd /app```
 
+```npm install```
+
 ```pm2 start app.js ```
 
 
