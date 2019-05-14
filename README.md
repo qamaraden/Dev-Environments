@@ -48,6 +48,11 @@ Step 4: If the test runs and there are 0 failures then you can skip this step. i
 
 Step 5: Now you can build the VM:
 
+
+```$ vagrant destroy```
+
+then
+
 ```$ vagrant up```
 
   And SSH into it:
