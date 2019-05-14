@@ -13,7 +13,7 @@ First, clone the repo,
 ```$ cd Dev-Environments```
 
 #### Testing
-Step 1: You can make sure that everyhthing is installed properly by doing a spec test. The spec test can be found in the following folder:
+Step 1: You can make sure that everything is installed properly by doing a spec test. The spec test can be found in the following folder:
 
 ```$ cd environment/spec-tests```
 
@@ -25,7 +25,7 @@ Step 3: Make sure there's a spec folder in there. Now 'rake spec
 
 ```$ rake spec```
 
-Step 4: If the test runs and there are 0 failures then you can skip this step. if the test comes back with any failures, go into the provision.sh file in environment folder and make sure that this is in it:
+Step 4: If the test runs and there are 0 failures then you don't need this step. If the test comes back with any failures, go into the provision.sh file in the environment folder and make sure that this is in it:
 
 ```sudo apt-get update -y```
 
@@ -47,8 +47,9 @@ Step 4: If the test runs and there are 0 failures then you can skip this step. i
 
 ```pm2 start app.js ```
 
+#### Build VM
 
-Step 5: Now you can build the VM:
+Now you can build the VM:
 
 
 ```$ vagrant destroy```
